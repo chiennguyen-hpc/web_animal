@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&family=Ruge+Boogie&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+body{
+    margin: 53px 140px 0 140px;
+    overflow-x: hidden;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* width: 1160px; */
+    margin-bottom: 98px;
+}
+
+nav .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+}
+
+nav .logo img{
+    width: 33px; 
+    height: 28.88px;
+}
+
+nav .logo span{
+    font-family: "Potta One", system-ui;
+    display: block;
+}
+
+nav .logo span:nth-child(2){
+    font-size: 12px;
+}
+
+nav .menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .menu a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+nav .menu a:hover{
+    /* border-bottom: 1px solid red; */
+    background-color: rgb(130, 246, 250);
+    border-radius: 10px;
+}
+
+/* Article */
+.G_Section_0{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 35px;
+}
+
+.G_Section_0 .HeadLine{
+    width: 517px;
+    margin-bottom: 38px;
+    margin-right: 29px;
+}
+
+.G_Section_0 h1{
+    font-family: "Ruge Boogie", cursive;
+    font-size: 48px;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 38px;
+}
+
+.G_Section_0 p{
+    width: 502px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28.44px; 
+    word-wrap: break-word;
+    margin-bottom: 38px;
+}
+
+.G_Section_0 .CTA{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px; 
+}
+
+.G_Section_0 .CTA button{
+    padding: 9px;
+    border-radius: 10px;
+    background: #C5FFD8;
+    overflow: hidden; 
+}
+
+.G_Section_0 .CTA button:hover{
+    background-color: #6FEC99;
+}
+
+.G_Section_0 .CTA a{
+    text-decoration: none;
+    color: #000;
+}
+
+.G_Section_0 .CTA a:hover{
+    text-decoration: underline;
+}
+
+.G_Section_0 .Gallery{
+    display: flex;
+    width: 633px; 
+    height: 556px;
+}
+
+.G_Section_0 .Gallery img{
+    width: 302px; 
+    height: 556px;
+    border-radius: 10px;
+    margin-right: 29px;
+}
+
+.G_Section_0 .Gallery .Rectangle_2 img:nth-child(1){
+    width: 302px; 
+    height: 266px;
+    border-radius: 10px;
+    margin-bottom: 24px;
+}
+
+.G_Section_0 .Gallery .Rectangle_2 img:nth-child(2){
+    width: 302px; 
+    height: 266px;
+    border-radius: 10px;
+}
+
+.G_Section_1 .Navbar-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.G_Section_1 .Navbar-2 a{
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    width: 117px; 
+    height: 31px; 
+    background: white; 
+    border-radius: 10px; 
+    border: 1px black solid
+}
+
+.G_Section_1 .Navbar-2 a:hover{
+    background: #DFFFF2;
+}
+
+.columns{
+    margin-bottom: 50px;
+}
+
+.columns .column-img{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+
+.columns .mg-b{
+    margin-bottom: 28px;
+}
+
+.columns .column-0 img{
+    width: 266px; 
+    height: 219px; 
+    border-radius: 10px
+}
+
+.columns .column-1 img{
+    width: 155.93px; 
+    height: 219px; 
+    border-radius: 10px
+}
+
+.columns .column-2{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+}
+
+.columns .column-2 img{
+    width: 155.94px; 
+    height: 122px; 
+    border-radius: 10px
+}
+
+.columns .column-3 img{
+    width: 399px; 
+    height: 250px; 
+    background: linear-gradient(0deg, #D9D9D9 0%, #D9D9D9 100%); 
+    border-radius: 10px
+}
+
+.columns .column-4 img{
+    width: 146px; 
+    height: 219px; 
+    border-radius: 10px
+}
+
+.more-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.more-img a button{
+    width: 146px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #C5FFD8;
+}
+
+.more-img a button:hover{
+    background-color: #6FEC99;
+}
